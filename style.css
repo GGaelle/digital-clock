@@ -10,8 +10,9 @@ body {
   justify-content: center;
   align-items:center;
   flex-direction: column;
-  background: url("https://source.unsplash.com/featured/?nature,beach,water,flower");
+  background: url("https://source.unsplash.com/1600x900/?nature,beach,water,flower");
   background-size: cover;
+  overflow-y: hidden;
 }
 #clock {
   font-family: 'Orbitron', sans-serif;
