@@ -1,12 +1,32 @@
+:root{
+  --gray: #444;
+  --white: #fff;
+}
+
 body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: #000;
+  align-items:center;
+  flex-direction: column;
+  background: url("https://source.unsplash.com/1280x720/?nature,beach,water");
+  background-size: cover;
 }
 #clock {
   font-family: 'Orbitron', sans-serif;
   font-size: 5rem;
-  color: #32e914;
+  color: var(--gray);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 17px 17px 0 17px;
+  border-radius: 15px;
+}
+
+ion-icon {
+  border-radius: 10px;
+  background: var(--white);
+  padding: 15px;
+  margin: 0 15px;
+  font-size: 40px;
+  vertical-align: text-top;
+  color: var(--gray);
 }
