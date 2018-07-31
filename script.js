@@ -25,8 +25,8 @@ function convertFormat(time){
 }
 
 function checkTime(time){
-  if (time > 12){
-    time = time - 12;
+  if (time > 24){
+    time = time - 24;
   }
   if(time === 0){
     time = 12;
