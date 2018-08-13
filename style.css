@@ -1,7 +1,7 @@
 :root{
-  --gray: #444;
+  --gray: #323131;
   --white: #fff;
-  --transparent: rgba(255, 255, 255, 0.5);
+  --transparent: rgba(255, 255, 255, 0.45);
 }
 
 body {
@@ -16,19 +16,21 @@ body {
 }
 #clock {
   font-family: 'Orbitron', sans-serif;
-  font-size: 5rem;
+  font-size: 7rem;
   color: var(--gray);
   background-color: var(--transparent);
-  padding: 17px 17px 0 17px;
+  padding: 27px 60px 0 60px;
   border-radius: 15px;
+  text-shadow: 0 0 5px var(--white);
 }
 
 ion-icon {
-  border-radius: 10px;
+  border-radius: 35px;
   background-color: var(--transparent);
-  padding: 15px;
-  margin: 0 25px;
+  padding: 12px;
+  margin: 0 12px;
   font-size: 40px;
   vertical-align: text-top;
   color: var(--gray);
+  text-shadow: 0 0 5px var(--white);
 }
